@@ -5,7 +5,6 @@
 Node@6 has great [ES2015 support](https://nodejs.org/en/docs/es6/),
 this module just adds missing features:
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
-- unicode regular expressions ([transform-es2015-unicode-regex](http://babeljs.io/docs/plugins/transform-es2015-unicode-regex))
 - better function name support ([transform-es2015-function-name](http://babeljs.io/docs/plugins/transform-es2015-function-name))
 
 ## Install
