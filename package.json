@@ -16,6 +16,7 @@
   "author": "Jhen <developer@jhen.me>",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.6.5",
     "babel-plugin-transform-es2015-function-name": "^6.5.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4"
   }

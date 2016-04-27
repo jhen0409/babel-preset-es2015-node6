@@ -4,8 +4,12 @@
 
 Node@6 has great [ES2015 support](https://nodejs.org/en/docs/es6/),
 this module just adds missing features:
+
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
 - better function name support ([transform-es2015-function-name](http://babeljs.io/docs/plugins/transform-es2015-function-name))
+
+And:
+- destructuring ([transform-es2015-destructuring](http://babeljs.io/docs/plugins/transform-es2015-destructuring)) (Related to issue [#2](https://github.com/jhen0409/babel-preset-es2015-node6/issues/2))
 
 ## Install
 
