@@ -4,7 +4,8 @@
   "description": "Babel preset to make node@6 fully ES2015 compatible",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "object-rest.js"
   ],
   "scripts": {
     "test": "mocha -r ./test/setup",

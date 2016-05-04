@@ -8,10 +8,6 @@ this module just adds missing features:
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
 - better function name support ([transform-es2015-function-name](http://babeljs.io/docs/plugins/transform-es2015-function-name))
 
-And:
-- destructuring ([transform-es2015-destructuring](http://babeljs.io/docs/plugins/transform-es2015-destructuring)) (Related to issue [#2](https://github.com/jhen0409/babel-preset-es2015-node6/issues/2))
-- parameters ([transform-es2015-parameters](http://babeljs.io/docs/plugins/transform-es2015-parameters)) (Related to issue [#2](https://github.com/jhen0409/babel-preset-es2015-node6/issues/2))
-
 ## Install
 
 ```js
@@ -22,6 +18,8 @@ $ npm install --save-dev babel-preset-es2015-node6
 
 Read ["Configuring Babel 6" article](http://www.2ality.com/2015/11/configuring-babel6.html)
 for more information about babel@6 configuration.
+
+__*NOTE*__ If you're using `object-rest` feature of `stage-2`, use `es2015-node6/object-rest` instead of `es2015-node6` (It's added back `destructuring`, `parameters`), or down to `^0.1.4`. Waiting [#2](https://github.com/jhen0409/babel-preset-es2015-node6/issues/2), [T7086](https://phabricator.babeljs.io/T7086) fix.
 
 ### Via `.babelrc` (recommended)
 
