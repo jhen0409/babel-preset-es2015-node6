@@ -10,6 +10,7 @@ this module just adds missing features:
 
 And:
 - destructuring ([transform-es2015-destructuring](http://babeljs.io/docs/plugins/transform-es2015-destructuring)) (Related to issue [#2](https://github.com/jhen0409/babel-preset-es2015-node6/issues/2))
+- parameters ([transform-es2015-parameters](http://babeljs.io/docs/plugins/transform-es2015-parameters)) (Related to issue [#2](https://github.com/jhen0409/babel-preset-es2015-node6/issues/2))
 
 ## Install
 

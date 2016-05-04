@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-node6",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Babel preset to make node@6 fully ES2015 compatible",
   "main": "index.js",
   "files": [
@@ -25,7 +25,8 @@
   "dependencies": {
     "babel-plugin-transform-es2015-destructuring": "^6.6.5",
     "babel-plugin-transform-es2015-function-name": "^6.5.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "babel-plugin-transform-es2015-parameters": "^6.8.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.7",
