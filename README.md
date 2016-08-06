@@ -45,6 +45,18 @@ require('babel-core').transform('code', {
 })
 ```
 
+### Options
+
+* `loose` - Enable "loose" transformations for any plugins in this preset that allow them (Disabled by default).
+
+```
+{
+  presets: [
+    ["es2015-node6", { "loose": true }]
+  ]
+}
+```
+
 ## Credits
 
 * Inspired by [babel-preset-es2015-node5](https://github.com/alekseykulikov/babel-preset-es2015-node5)
