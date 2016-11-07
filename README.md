@@ -47,7 +47,7 @@ require('babel-core').transform('code', {
 ### Options
 
 * `loose` - Enable "loose" transformations for any plugins in this preset that allow them (Disabled by default).
-* `funcName` - If your node version is less than 6.5, consider enabling function name support.
+* `funcName` - If your node version is less than `6.5`, consider enabling [function name](http://babeljs.io/docs/plugins/transform-es2015-function-name) support.
 
 ```
 {

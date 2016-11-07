@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-node6",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Babel preset to make node@6 fully ES2015 compatible",
   "main": "index.js",
   "files": [
